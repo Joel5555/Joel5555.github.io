@@ -1,0 +1,213 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Joelの部落格</title>
+<link rel="shortcut icon" href="https://yujiale.blog/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://yujiale.blog/media/css/tailwind.css">
+<link rel="stylesheet" href="https://yujiale.blog/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Joelの部落格 - Atom Feed" href="https://yujiale.blog/atom.xml">
+
+    
+
+  <meta name="description" content="温故而知新" />
+</head>
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
+  <div class="flex justify-end px-4">
+    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
+      <i class="ri-close-line" v-show="showMenu"></i>
+      <i class="ri-menu-3-line" v-show="!showMenu"></i>
+    </div>
+  </div>
+  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
+    
+      <a href="/" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        首页
+      </a>
+    
+      <a href="/archives" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        归档
+      </a>
+    
+      <a href="/tags" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        标签
+      </a>
+    
+      <a href="/post/about" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        关于
+      </a>
+    
+      <a href="https://travellings.link" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+        开往🚇
+      </a>
+    
+    <a href="https://yujiale.blog/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
+      RSS
+    </a>
+  </nav>
+</div>
+    <div class="max-w-4xl w-full mx-auto pt-32">
+      <div class="py-8 shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/ViE80euvF/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              幼苗（7）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/qAL8BDp9V/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              工具（8）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/6LEBO6V5b/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              网站（4）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/hHCS32dsF/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              指南（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/EMVMZe1aHH/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              排版（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/0NgkvZWc-/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              分蘖（3）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/By8DWObmC/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              对话录（2）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/oK0ZJJFrO/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              生存（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/jpePCBUNRb/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              思维（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/PoJyqlhRl2/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              数字生活（2）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/Vt-r6jEab/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              注意力（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/QzJ51nQPPU/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              消息推送（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/V5-vA0_s3/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              设计（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/XZEnSCJx1/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              语言学（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/Is97gkMr3/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              成熟（2）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/7tSARq-6la/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              教育（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/UjZU9502uD/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              散文（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/LAXW6L988S/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              杂文（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/PDTraXKv5/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              阅读（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/-K8nhOqbo/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              遇见（1）
+            </a>
+          </div>
+        
+          <div class="px-8 pb-5 inline-flex relative overflow-hidden">
+            <a href="https://yujiale.blog/tag/KyDcFIoGBv/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
+              <i class="ri-hashtag"></i>
+              抽穗（1）
+            </a>
+          </div>
+        
+      </div>
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; Beautifully crafted by <a href="mailto:yujiale8@onmail.com" target="_blank">Joel</a> 
+</footer>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://yujiale.blog/media/scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,501 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>从文章到博客，不怕看到过的文章走丢 - Joelの部落格</title>
+<link rel="shortcut icon" href="https://yujiale.blog/favicon.ico">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
+<link rel="stylesheet" href="https://yujiale.blog/media/css/tailwind.css">
+<link rel="stylesheet" href="https://yujiale.blog/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="从文章到博客，不怕看到过的文章走丢 - Joelの部落格 - Atom Feed" href="https://yujiale.blog/atom.xml">
+
+    
+
+  <meta name="description" content="将网站内容快速保存到Notion，并快速发布到个人博客。文章404从此不再有，分享文章处处可及。
+
+
+本文由 简悦 SimpRead 转码， 原文地址 article.yujiale.blog
+
+
+快来找我玩呀~
+
+写在前面
+本配置预计用时..." />
+  <meta property="og:title" content="从文章到博客，不怕看到过的文章走丢 - Joelの部落格">
+  <meta property="og:description" content="将网站内容快速保存到Notion，并快速发布到个人博客。文章404从此不再有，分享文章处处可及。
+
+
+本文由 简悦 SimpRead 转码， 原文地址 article.yujiale.blog
+
+
+快来找我玩呀~
+
+写在前面
+本配置预计用时..." />
+  <meta property="og:type" content="articles">
+  <meta property="og:url" content="https://yujiale.blog/post/cong-wen-zhang-dao-bo-ke-bu-pa-kan-dao-guo-de-wen-zhang-zou-diu/" />
+  <meta property="og:image" content="https://yujiale.blog/images/avatar.png">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:width" content="1200">
+  <meta name="twitter:title" content="从文章到博客，不怕看到过的文章走丢 - Joelの部落格">
+  <meta name="twitter:description" content="将网站内容快速保存到Notion，并快速发布到个人博客。文章404从此不再有，分享文章处处可及。
+
+
+本文由 简悦 SimpRead 转码， 原文地址 article.yujiale.blog
+
+
+快来找我玩呀~
+
+写在前面
+本配置预计用时...">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://yujiale.blog/post/cong-wen-zhang-dao-bo-ke-bu-pa-kan-dao-guo-de-wen-zhang-zou-diu/">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css">
+ 
+  
+    <link rel="stylesheet" href="https://yujiale.blog/media/css/prism-atom-dark.css">
+  
+
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+  
+</head>
+
+<body>
+  <div class="antialiased flex flex-col min-h-screen" id="app">
+    <a href="https://yujiale.blog" class="fixed top-0 left-0 mt-4 bg-black text-white dark:text-gray-700 dark:bg-yellow-50 dark:hover:bg-black dark:hover:text-white inline-flex p-2 pl-8 hover:text-gray-700 hover:bg-yellow-50 font-bold z-10 transition-fast animated fadeInLeft">
+      Joelの部落格
+    </a>
+    <div class="max-w-4xl w-full mx-auto">
+      <div class="shadow-box bg-white dark:bg-gray-600 rounded-lg pt-32 md:pt-64 px-4 md:px-8 pb-8 animated fadeIn mb-8">
+        <h1 class="text-5xl font-semibold leading-normal pb-8 mb-8 border-b-8 border-gray-700">
+          从文章到博客，不怕看到过的文章走丢
+        </h1>
+        
+        <div class="mb-8 flex flex-wrap">
+          <div class="text-gray-400 text-sm mr-4">2022-04-26 · 7 min read</div>
+          
+        </div>
+        <div class="markdown mb-8" v-pre>
+          <p>将网站内容快速保存到Notion，并快速发布到个人博客。文章404从此不再有，分享文章处处可及。</p>
+<!-- more -->
+<blockquote>
+<p>本文由 <a href="http://ksria.com/simpread/">简悦 SimpRead</a> 转码， 原文地址 <a href="https://article.yujiale.blog/article/from-website-to-blog">article.yujiale.blog</a></p>
+</blockquote>
+<blockquote>
+<p>快来找我玩呀~</p>
+</blockquote>
+<h3 id=""><a href="#30e13c1bb0c747d181742302f845afed" title="写在前面"></a>写在前面</h3>
+<p>本配置预计用时 40 分钟左右，熟练者或已经进行过相关配置者用时 20 分钟左右。此教程不需要编程技巧。</p>
+<h3 id="-2"><a href="#e29f39f7906b4b07b80ec3f0e84c204d" title="准备工作"></a>准备工作</h3>
+<p>本教程需要用到的内容有：</p>
+<ul>
+<li>
+<p><a href="http://ksria.com/simpread/">简悦</a></p>
+</li>
+<li>
+<p><a href="https://vercel.com/">Vercel</a> 账号</p>
+</li>
+<li>
+<p><a href="https://github.com/">GitHub</a> 账号</p>
+</li>
+<li>
+<p><a href="https://www.notion.so/">Notion</a> 账号</p>
+</li>
+<li>
+<p>良好的网络环境</p>
+</li>
+<li>
+<p>中学以上英语水平</p>
+</li>
+<li>
+<p>中等水平的理解能力🧠</p>
+</li>
+<li>
+<p>一颗愿意折腾的心❤️</p>
+</li>
+</ul>
+<h3 id="-3"><a href="#6fe731cc203b4a00b4b521f4cf9c3a25" title="整体思路"></a>整体思路</h3>
+<p>将简悦提供的模板和博客网站需要的模板融合起来，让新模板具有两者都能够识别的属性。通过简悦插件将文章保存到 Notion 后，自动填写这些属性，并让博客服务识别并转换生成博客文章。</p>
+<h4 id="-4"><a href="#fd662ee2920243c58b5f0dff8f71d08d" title="需要用到的Token"></a>需要用到的 Token</h4>
+<ul>
+<li>
+<p>简悦 Integration Token <a href="https://www.notion.so/my-integrations">创建⤴️</a></p>
+</li>
+<li>
+<p>Notion Page ID <a href="https://article.yujiale.blog/article/5fd315d7d2fc4f8389a8064bd037b146">找到它</a></p>
+</li>
+</ul>
+<h4 id="-5"><a href="#08c1323ba81e43a0885d69175fda7a81" title="需要用到的页面"></a>需要用到的页面</h4>
+<ul>
+<li>
+<p>简悦模板 👉 <a href="https://article.yujiale.blog/article/e784eba882da452eb8f300e6cd6b195d">复制</a></p>
+</li>
+<li>
+<p><a href="http://noto.so/">noto.so</a> 官网 👉<a href="https://noto.so/">直达</a></p>
+</li>
+<li>
+<p>Nobelium GitHub 仓库 👉<a href="https://github.com/craigary/nobelium">直达</a></p>
+</li>
+<li>
+<p>NotionNext GitHub 仓库 👉<a href="https://github.com/tangly1024/NotionNext">直达</a></p>
+</li>
+<li>
+<p>简悦 Notion 增强辅助插件 👉<a href="https://simpread.ksria.cn/plugins/details/g60jwZEeqU">安装</a></p>
+</li>
+<li>
+<p>简悦 Notion Blog 增强辅助插件 👉<a href="https://simpread.ksria.cn/plugins/details/iJdQjjoYAB">安装</a></p>
+</li>
+<li>
+<p>官方剪藏插件 Notion Web Clipper 👉<a href="https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk">安装</a></p>
+</li>
+</ul>
+<h3 id="-6"><a href="#d973d542e8944f9d8c00115bcb42d8ee" title="开始折腾"></a>开始折腾</h3>
+<p>我们以搭建 NotionNext 博客作为演示，使用 Nobelium、noto.so 的用户操作过程与 NotionNext 相似，我会在操作不一致的部分做说明，一步步照做即可。</p>
+<ol>
+<li>
+<p>打开 Notion 网页版，复制 <a href="https://article.yujiale.blog/article/02ab3b8678004aa69e9e415905ef32a5">NotionNext 的模板</a>（Nobelium 的用户请复制 <a href="https://article.yujiale.blog/article/adc3552cfc73442ab5048d4b1eb0079a">Nobelium 模板</a>，noto.so 用户请复制 <a href="https://article.yujiale.blog/article/6a7a53697d814f0794992da8a9de9471">noto.so 模板</a>）；</p>
+</li>
+<li>
+<p>安装 Notion 官方剪藏工具 <a href="https://chrome.google.com/webstore/detail/notion-web-clipper/knheggckgoiihginacbkhaalnibhilkk">Notion Web Clipper</a>，使用 Notion Web Clipper 保存任意一篇文章，保存时选择创建网页链接数据库，输入任意名称，如下图所示；</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F17efba60-11dd-4da8-82e5-9fa2a31591ae%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D3d157e8cb43bfd748e7dabc4099777e7b86f2b0dca9c69ab65697d8b3b075129%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=99b3dc0b-655b-40e7-a292-bf0fcbff7bb5&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="3">
+<li>返回到 Notion，找到刚刚创建的数据库，添加一个表格视图（table view），然后，为他添加一个名称是 <code>Origin</code> 的列表，属性是 <code>Select</code> ，如下图所示。然后，在 <code>Created</code> 一列上点击右键，删除这一列；</li>
+</ol>
+<figure data-type="image" tabindex="2"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F18a829d9-73cf-4f97-8413-c89620ed07c5%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D93e30f7cfc9ba426de1d39bd974821d1323f1268e82ef4d37cfb148c76acded0%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=f7665727-5f39-4d2a-81d6-c131d3eb0dbc&amp;cache=v2" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F2051e724-2dcf-49f7-882f-3eb0fb2db531%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D6358360c99693218681d005e68c592c907302b07f40dd126a23914c3a2e2f472%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=632a8df2-15b9-4493-a060-f823311baede&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol>
+<li>现在你的 Notion 工作区中应该有两个模板，一个是博客的模板，一个是简悦的模板，现在我们让简悦访问并识别这个页面，要做到这一点，我们<a href="https://www.notion.so/my-integrations">新建一个 Notion Integration</a>，选择新建（Create new integration）；</li>
+</ol>
+<figure data-type="image" tabindex="4"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff1a97825-4892-476c-b4d7-c02822ddf6e6%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3Dedf147601990029e7f8e8d2639505c03583c4a75714c862b73911170bcf731ab%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=e5c4bb04-7b32-4fab-8570-13105d11a198&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="2">
+<li>紧接着，请按照图示进行相关设置，名称和头像自拟。最后选择提交（Submit）</li>
+</ol>
+<figure data-type="image" tabindex="5"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa9049dd1-b851-4caa-8459-2b5f07e97dd6%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D3f1d5c1a595f824301904c2a586fafdbc8ef75f97316f39db53176ed61d1509f%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=7be5c600-533c-48b0-bfcf-92ed8c2012bd&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="3">
+<li>点击展示（Show）并复制（Copy）页面中给出的 Internal Integration Token，保存好这串内容；</li>
+</ol>
+<figure data-type="image" tabindex="6"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4be50aea-f37a-4f67-a55e-781ee91181c2%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D4b488bcea8ecebf65940ee39715d8ae4adb2b2c7303a88aac8d987a1b0f77ad8%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=8a94516c-28b9-49a2-ab18-392321e2626b&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol>
+<li>回到之前我们修改过的简悦 Notion 模板中，在右上角找到 Share，邀请我们刚刚创建的简悦 Integration；</li>
+</ol>
+<figure data-type="image" tabindex="7"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F272a1e34-1f74-4d52-acea-5f4774abf805%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D9f02bad8e94600567a13352e6b77197061c030513deb985dc3088d31ffcbd6df%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=79480f34-cb36-48f5-bed6-6782f01830df&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="2">
+<li>将页面分享到互联网上（Share to web），并复制这个页面的链接；</li>
+</ol>
+<figure data-type="image" tabindex="8"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F79237421-91a0-459c-8a94-e2a342369890%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D9c5679384aa6ce43c7deeb4f0ddb110083abba50499dcd3536b8901bde01acce%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=4d294ae1-9664-4a84-9ca2-9978a124c2af&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="3">
+<li>将链接复制到浏览器地址栏，他应该是类似 <code>[https://www.notion.so/abcd****xyz?v=123***789](https://www.notion.so/abcd****xyz?v=123***789)</code></li>
+</ol>
+<p>的一个结构，我们复制 <code>[https://www.notion.so/](https://www.notion.so/abcd****xyz?v=123***789)</code> 后面 <code>[abcd****xyz](https://www.notion.so/abcd****xyz?v=123***789)</code> 这一部分内容，得到这个页面的 ID，同样，保存好这部分内容；</p>
+<ol>
+<li>
+<p>在简悦选项页授权 Notion 并选择将文章保存到刚刚我们设置好的页面，安装简悦插件<a href="https://simpread.ksria.cn/plugins/details/g60jwZEeqU">导入到 Notion 辅助增强</a>和 <a href="https://simpread.ksria.cn/plugins/details/iJdQjjoYAB">Notion blog 辅助增强</a>。注意：如果使用同步助手请先关闭同步助手，然后安装插件；</p>
+</li>
+<li>
+<p>打开任意一篇文章，配置 Notion 辅助增强，点击导入到 Notion 辅助增强选项进行设置。如果插件未生效请重新卸载安装，并检查是否关闭同步助手；</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="9"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F792701f5-e344-4c8e-ba7b-edf3fb466821%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D079d39090d989b3356e135520d2c8b4b65c6e50ed7cd52c3ded8037abed5d4c3%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=077abaac-0c1d-4be4-83ca-30fa17270366&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="3">
+<li>将我们保存的简悦 Internal Integration Token 填入第一栏，将简悦 Internal Integration Token 和页面 ID 填入第二栏，点击保存并关闭；</li>
+</ol>
+<figure data-type="image" tabindex="10"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fe4b3423f-b758-4344-9c78-e0e2be2a1559%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D897bf61907c80634725bdd9e6daf006204938a7e83097b081adaa4ef9182f27a%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=b0a25c6e-ec5e-4d82-8018-2c2ddc2fcc3c&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol>
+<li>同样的，我们设置 <a href="https://simpread.ksria.cn/plugins/details/iJdQjjoYAB">Notion blog 辅助增强</a>，将我们保存的简悦 Internal Integration Token 填入第一栏，将简悦 Internal Integration Token 和页面 ID 填入第二栏，选择保存并关闭；</li>
+</ol>
+<figure data-type="image" tabindex="11"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F815db51c-5a00-4e63-a30c-266052e08b7c%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3Db4aac442f7d3f8817f3c1df363c9ca922fc3a682c9340146c101190597ef72d5%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=7ed89698-10a4-4b07-8a5a-5034cf88352a&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="2">
+<li>
+<p>随后，我们将这篇文章保存到 Notion，看看是否成功，如果不成功，请检查上述步骤是否设置有误，如果无法排查，请移步简悦官方反馈渠道反馈；</p>
+</li>
+<li>
+<p>确保简悦可以识别并保存文章到 Notion 后，我们下一步将 NotionNext 模板和简悦模板合并。（Nobelium 用户与 NotionNext 一致，但下方会略有不同）要做到这一点，我们首先点击 NotionNext 的模板页面，选中所有页面，将所有内容移动到简悦模板页面中。这时，你会发现简悦模板中比原先多出了一些列，这是因为 Notion 在复制页面的过程中，将原先 NotionNext 的一些列也复制到了简悦模板中来。这节省了我们手动复制的时间，也不容易出错。</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="12"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff65ec683-8c73-4910-a23c-7a6d6e7f0c8d%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3D476b458afafb1d7e092cc8cd69dd1b4f8ad885ce7d0fe54e0dc9309fde5959a5%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=59a95b25-09bc-4051-aa91-9086e861a1d4&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="2">
+<li>随后，我们将页面 Name 一列改为 title，再添加一列 tags，将属性选择为 <code>Multi-select</code>。并最后检查有无页面的列被漏掉了。原则是简悦和博客模板的所有列都应该被加入这个模板中，两者冲突的部分（例如标题）遵照博客的模板设置，）；</li>
+</ol>
+<figure data-type="image" tabindex="13"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F821a0de3-7a00-4324-978e-29a2b7579b26%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3Df99e94c82ab440c043da89606d7089a8c061d6d7ec4cef85c379e51c8e3eec6c%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=9d4679d6-722f-4606-914c-56f5b3eacecf&amp;cache=v2" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="14"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4a94c1b7-98e6-4a68-aa94-39efbe13d1d7%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3Dcfde4de8ddbe0010d1393e3f76ecc97e50d10066981bd982a8fd6eea67f1ecc6%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=ee0a6ceb-4347-43b9-a9bc-27ed48c15402&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="3">
+<li>（仅限 NotionNext）这样，我们 Notion 模板和简悦的部分就设置完成了，下面进入 NotionNext 的搭建。进入我们 Fork <a href="https://github.com/tangly1024/NotionNext/fork">NotionNext 仓库</a>。如果你已经搭建好了博客，请忽略此步；</li>
+</ol>
+<figure data-type="image" tabindex="15"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F46ca6188-4c7f-4b6a-a9f7-b91a671e2fb6%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3Dd278909fc4329149e4f47864d2d589892526c5a0f1f292a945c4892e3407d994%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=c454ad9b-4869-4f41-bf37-e9b3286fb31b&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="5">
+<li>
+<p>（仅限 NotionNext）进入到我们复制好的仓库，点击<code>blog.config.js</code> 修改它，在如图所示的地方添加页面 ID（Page ID），然后按照[</p>
+<p>NotionNext</p>
+<p>tangly1024 • Updated on 2022-04-26</p>
+<p>](https://github.com/tangly1024/NotionNext)的官方说明对其他地方做修改；</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="16"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3b0367f8-f643-46fa-81c8-79f19bb5a341%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3Da2566157cc43ff990317dacaae195416532840e0441930ef74461eaf182cd079%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=8b0961f7-db27-4db7-b1db-701659e734e2&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="7">
+<li>（仅限 Nobelium） Nebelium 用户请 Fork <a href="https://github.com/craigary/nobelium/fork">Nobelium 仓库</a>，如果你已经搭建好了博客，请忽略此步；</li>
+<li>（仅限 Nobelium）进入到我们复制好的仓库，点击 <code>blog.config.js</code> 修改它，按照注释修改相关的内容；</li>
+<li>进入 Vercel，选择新建项目（+New Project），选择我们刚刚创建或修改的 GitHub 仓库，等待部署（Deploy）完成。Nobelium 用户需要在部署时添加环境变量，在左侧输入<code>NOTION_PAGE_ID</code> ，在右侧输入你的页面 ID（Page ID），点击添加（Add）后部署（Deploy）。部署完成后稍等几分钟你应该可以访问到博客并且有示例文章显示出来。</li>
+</ol>
+<figure data-type="image" tabindex="17"><img src="https://www.notion.so/image/https%3A%2F%2Fs3.us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0ee9ad09-618a-40eb-8ec5-f6d71cba0722%2FUntitled.png%3FX-Amz-Algorithm%3DAWS4-HMAC-SHA256%26X-Amz-Content-Sha256%3DUNSIGNED-PAYLOAD%26X-Amz-Credential%3DAKIAT73L2G45EIPT3X45%252F20220426%252Fus-west-2%252Fs3%252Faws4_request%26X-Amz-Date%3D20220426T081641Z%26X-Amz-Expires%3D86400%26X-Amz-Signature%3Def4b433dc8057d9105b17b0d93278a3de50d8a48ab914fd9b75798186475feff%26X-Amz-SignedHeaders%3Dhost%26x-id%3DGetObject?table=block&amp;id=540993b9-f483-4f1e-bd6e-5188e458ed90&amp;cache=v2" alt="" loading="lazy"></figure>
+<ol start="11">
+<li>最后，我们选择一篇文章，进入简悦的阅读模式，选择，保存到 Notion 然后点击 Notion blog 辅助增强，选择发布此文章，点击生成，过一会文章就会出现在博客文章里了。</li>
+</ol>
+<h3 id="-7"><a href="#64c7b2be6c134e48a2edf3820832dd69" title="避坑指南"></a>避坑指南</h3>
+<ol start="13">
+<li>要邀请创建的简悦集成（Integration）到数据库（Database）简悦 Notion 增强辅助插件才可以将内容保存到 Notion；</li>
+<li>简悦 Notion Blog 增强导出失败可以先检查 Notion 数据库中是否有这篇文章；</li>
+<li>博客搭建成功但没有文章显示可以查看 Notion 数据库（Database）的模板是否与相应的模板一致，文章标题列的名称应为 title；</li>
+<li>博客搭建成功后点击文章报错 client side error 可能需要检查 Notion 数据库中是否有 Created 这一列，如有，可以删掉。</li>
+</ol>
+
+        </div>
+        <!-- Share to Twitter, Weibo, Telegram -->
+        <div class="flex items-center">
+          <div class="mr-4 flex items-center">
+            <i class="ri-share-forward-line text-gray-500"></i>
+          </div>
+          <div class="px-4 cursor-pointer text-blue-500 hover:bg-blue-100 dark:hover:bg-gray-600 inline-flex" @click="shareToTwitter">
+            <i class="ri-twitter-line"></i>
+          </div>
+          <div class="px-4 cursor-pointer text-red-500 hover:bg-red-100 dark:hover:bg-gray-600 inline-flex" @click="shareToWeibo">
+            <i class="ri-weibo-line"></i>
+          </div>
+          <div class="px-4 cursor-pointer text-indigo-500 hover:bg-indigo-100 dark:hover:bg-gray-600 inline-flex" @click="shareToTelegram">
+            <i class="ri-telegram-line"></i>
+          </div>
+        </div>
+      </div>
+
+      
+
+      
+        <div id="vlaine-comment"></div>
+      
+
+      <footer class="py-12 text-center px-4 md:px-0" v-pre>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; Beautifully crafted by <a href="mailto:yujiale8@onmail.com" target="_blank">Joel</a> 
+</footer>
+    </div>
+
+    <!-- TOC Container -->
+    <div class="fixed right-0 bottom-0 mb-16 mr-4 shadow w-8 h-8 rounded-full flex justify-center items-center z-10 cursor-pointer bg-white dark:bg-gray-500 dark:text-gray-200 hover:shadow-lg transition-all animated fadeInRight" @click="showToc = true">
+      <i class="ri-file-list-line"></i>
+    </div>
+
+    <div class="fixed right-0 top-0 bottom-0 overflow-y-auto w-64 bg-white dark:bg-gray-800 p-4 border-l border-gray-100 dark:border-gray-600 z-10 transition-fast" :class="{ '-mr-64': !showToc }">
+      <div class="flex mb-4 justify-end">
+        <div class="w-8 h-8 inline-flex justify-center items-center rounded-full cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast" @click="showToc = false">
+          <i class="ri-close-line text-lg"></i>
+        </div>
+      </div>
+      <div class="post-toc-container">
+        <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li></li>
+<li></li>
+<li>
+<ul>
+<li></li>
+<li></li>
+</ul>
+</li>
+<li></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+      </div>
+    </div>
+
+    <!-- Back to top -->
+    <div class="fixed right-0 bottom-0 mb-4 mr-4 shadow w-8 h-8 rounded-full flex justify-center items-center z-10 cursor-pointer bg-white hover:shadow-lg transition-all dark:bg-gray-500 dark:text-gray-200" @click="backToUp" v-show="scrolled">
+      <i class="ri-arrow-up-line"></i>
+    </div>
+  </div>
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- Background of PhotoSwipe. 
+        It's a separate element as animating opacity is faster than rgba(). -->
+  <div class="pswp__bg">
+  </div>
+  <!-- Slides wrapper with overflow:hidden. -->
+  <div class="pswp__scroll-wrap">
+    <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+    <div class="pswp__container">
+      <div class="pswp__item">
+      </div>
+      <div class="pswp__item">
+      </div>
+      <div class="pswp__item">
+      </div>
+    </div>
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    <div class="pswp__ui pswp__ui--hidden">
+      <div class="pswp__top-bar">
+        <!--  Controls are self-explanatory. Order can be changed. -->
+        <div class="pswp__counter">
+        </div>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+        <!-- element will get class pswp__preloader--active when preloader is running -->
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip">
+        </div>
+      </div>
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
+      <div class="pswp__caption">
+        <div class="pswp__caption__center">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://yujiale.blog/media/scripts/main.js"></script>
+  
+  <!-- Code Highlight -->
+  
+    <script src="https://yujiale.blog/media/prism.js"></script>
+    <script>
+      Prism.highlightAll()
+    </script>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"></script>
+  <script>
+    //拿到预览框架，也就是上面的html代码
+    var pswpElement = document.querySelectorAll('.pswp')[0];
+    //定义图片数组变量
+    var imgitems;
+    /**
+    * 用于显示预览界面
+    * @param index 图片数组下标
+    */
+    function viewImg(index) {
+      //其它选项这里不做过多阐述，详情见官网
+      var pswpoptions = {
+        index: parseInt(index, 10), // 开始幻灯片索引。0是第一张幻灯片。必须是整数，而不是字符串。
+        bgOpacity: 0.7, // 背景透明度，0-1
+        maxSpreadZoom: 3, // 缩放级别，不要太大
+      };
+      //初始化并打开PhotoSwipe，pswpElement对应上面预览框架，PhotoSwipeUI_Default为皮肤，imgitems为图片数组，pswpoptions为选项
+      var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, imgitems, pswpoptions);
+      gallery.init()
+    }
+    /**
+    * 用于添加图片点击事件
+    * @param img 图片元素
+    * @param index 所属下标（在imgitems中的位置）
+    */
+    function addImgClick(img, index) {
+      img.onclick = function() {
+        viewImg(index)
+      }
+    }
+    /**
+    * 轮询所有图片，获取src、width、height等数据，加入imgitems，并给图片元素添加事件
+    * 最好在onload中执行该方法，本站因放在最底部，所以直接初始化
+    * 异步加载图片可在图片元素创建完成后调用此方法
+    */
+    function initImg() {
+      //重置图片数组
+      imgitems = [];
+      //查找class:markdown 下的所有img元素并遍历
+      var imgs = document.querySelectorAll('.markdown img');
+      for (var i = 0; i < imgs.length; i++) {
+        var img = imgs[i];
+        //本站相册初始为loading图片，真实图片放在data-src
+        var ds = img.getAttribute("data-src");
+        //创建image对象，用于获取图片宽高
+        var imgtemp = new Image();
+        //判断是否存在data-src
+        if (ds != null && ds.length > 0) {
+          imgtemp.src = ds
+        } else {
+          imgtemp.src = img.src
+        }
+        //判断是否存在缓存
+        if (imgtemp.complete) {
+          var imgobj = {
+            "src": imgtemp.src,
+            "w": imgtemp.width,
+            "h": imgtemp.height,
+          };
+          imgitems[i] = imgobj;
+          addImgClick(img, i);
+        } else {
+          console.log('进来了2')
+          imgtemp.index = i;
+          imgtemp.img = img;
+          imgtemp.onload = function() {
+            var imgobj = {
+              "src": this.src,
+              "w": this.width,
+              "h": this.height,
+            };
+            //不要使用push，因为onload前后顺序会不同
+            imgitems[this.index] = imgobj
+            //添加点击事件
+            addImgClick(this.img, this.index);
+          }
+        }
+      }
+    }
+    //初始化
+    initImg();
+  </script>
+  
+    <script type="application/javascript" src="https://unpkg.com/valine"></script>
+<script type="application/javascript">
+  new Valine({
+    el: '#vlaine-comment',
+    appId: '9sCSU1qYqsR2poYmSqTrStiE-MdYXbMMI',
+    appKey: '8uFSUegLaG27g5yzmeMjrglA',
+    pageSize: 10,
+    notify: true,
+    avatar: 'mp',
+    verify: true,
+    placeholder: '来都来了，评论一下呗~',
+    visitor: true,
+    highlight: true,
+    recordIP: false,
+  })
+</script>
+  
+  
+</body>
+
+</html>
