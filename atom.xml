@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yujiale.blog</id>
+    <title>Joel的自留地</title>
+    <updated>2023-01-17T14:50:36.131Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yujiale.blog"/>
+    <link rel="self" href="https://yujiale.blog/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://yujiale.blog/images/avatar.png</logo>
+    <icon>https://yujiale.blog/favicon.ico</icon>
+    <rights>All rights reserved 2023, Joel的自留地</rights>
+    <entry>
+        <title type="html"><![CDATA[找电子书这件事]]></title>
+        <id>https://yujiale.blog/post/zhao-dian-zi-shu-zhe-jian-shi/</id>
+        <link href="https://yujiale.blog/post/zhao-dian-zi-shu-zhe-jian-shi/">
+        </link>
+        <updated>2023-01-16T04:25:14.000Z</updated>
+        <summary type="html"><![CDATA[<p>数字化时代，如何好好看书？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>数字化时代，如何好好看书？</p>
+<!-- more -->
+<p>近年来在电子书领域国内外纷纷加大了对盗版资源的打击力度，这无可厚非，但我一众普通读者却深受其害。有时只是想要提前了解一本书值不值得买，有时是想要看到完整无缺的完本，而不是受制于某些原因的删减版，有时是迫于英文原著价格昂贵，运费太贵，有时是想做做电子笔记。无论出于何种目的，找电子书这个需求是无时无刻不存在的。有需求就有市场，正版图书平台，淘宝，闲鱼，微信微商，拆书小组，各种找书网站众多，价格从免费，到关注公众号，到几元至几十元不等。除去正版图书平台，其他这类服务的提供者，往往只是贩卖信息差，而不是真正的资源提供者，他们吃着国内读者不懂如何找电子书书，却想要阅读电子书的巨大红利，成为了贩卖电子书资源的灰色产业链中的一环。因此，打破信息差，提供给中国国内读者优质的电子书资源和平台，是破除这一产业链的关键。</p>
+<h2 id="电子书的分类">电子书的分类</h2>
+<p>电子书从类型以及找书的渠道来区分，我大致列出了如下几个分类：</p>
+<ol>
+<li>书籍</li>
+<li>刊物</li>
+<li>古籍</li>
+<li>论文</li>
+<li>漫画</li>
+<li>轻小说</li>
+<li>网络文学</li>
+</ol>
+<p>因为我从未涉猎过网络文学，因此对于如何寻找网络文学并无经验，本文亦不涉及网文电子书资源。</p>
+<h3 id="书籍">书籍</h3>
+<h4 id="正版书籍平台">正版书籍平台</h4>
+<ol>
+<li>
+<p><a href="https://weread.qq.com/">微信阅读</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.cn/Kindle%E7%94%B5%E5%AD%90%E4%B9%A6/b/?ie=UTF8&amp;node=116169071&amp;ref_=sv_kinc_2">亚马逊中国</a></p>
+</li>
+<li>
+<p><a href="https://www.amazon.com/kindle-dbs/storefront?storeType=browse&amp;node=154606011">亚马逊</a></p>
+</li>
+</ol>
+<h4 id="电子书资源">电子书资源</h4>
+<ol>
+<li>
+<p><a href="http://libgen.rs/">libgen</a><br>
+拥有绝大多数的英文电子书资源，传说如果你在这里没有找到电子书，你在其他的地方也大概率找不到；</p>
+</li>
+<li>
+<p><a href="https://www.jiumodiary.com/">鸠摩搜书</a><br>
+能够直接检索出大部分热门且经典的中文书籍；</p>
+</li>
+<li>
+<p><a href="https://t.me/ZL_new2_bot">Zlibrary</a>，目前其网址仅能通过Tor网络访问，因此在此推荐Zlibrary的Telegram bot；</p>
+</li>
+<li>
+<p><a href="https://freembook.com/">Freemdict</a>＋<a href="https://u.xueshu86.com/">互助联盟</a>＋百度网盘<br>
+能够找到大部分中文电子书，但大多为扫描PDF版，或PDG格式的书籍，需要百度网盘下载，结合PDG转换工具转换成PDF格式书籍。</p>
+</li>
+<li>
+<p><a href="http://www.nlc.cn/dsb_zyyfw/gj/gjzyk/">中国国家图书馆</a></p>
+</li>
+<li>
+<p><a href="https://new.shuge.org/">书格</a><br>
+从宏观视角来看，如果读者的钱不流入出版社以及作者的口袋里，长远来看对出版行业的打击将会是巨大的，这对读者来说并不见得是一桩好事。因此，请不要将电子书与免费挂钩，在有能力的前提下请永远支持正版。每个人都有自由平等获取知识的权利，请捍卫自己获取知识的权力，请尊重他人传播知识的成果。</p>
+</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数字花园]]></title>
+        <id>https://yujiale.blog/post/shu-zi-hua-yuan/</id>
+        <link href="https://yujiale.blog/post/shu-zi-hua-yuan/">
+        </link>
+        <updated>2023-01-12T12:40:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>数字花园犹如绿洲，在知识的荒漠中建立连结。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>数字花园犹如绿洲，在知识的荒漠中建立连结。</p>
+<!-- more -->
+<h2 id="什么是数字花园">什么是数字花园</h2>
+<p>如果要用两个比喻来简单介绍数字花园，我会选择沙漠中的绿洲和烽火台。偶尔，你也许会看到博客或者公开的笔记宣称他们是一座数字花园，也许你会对数字花园这个概念感到好奇。事实上数字花园本身也是一个隐喻，因为这些“博客或公开的笔记”拥有和花园相类似的性质。<strong>数字</strong>，说明这个花园并不是在地图中的某个花园，而是存在于互联网上的花园；花园，相信所有人都有这一概念，它们有大有小，有些精致，有些荒芜，有些公开，有些围着篱笆，但他们都有一个共同点：他们都在孕育。</p>
+<h2 id="数字花园的特点">数字花园的特点</h2>
+<h3 id="拓补结构">拓补结构</h3>
+<p>一个花园没有起点，也没终点。数字花园不同于普通博客，它并不依据时间来发布内容，而是以主题和概念为索引，按照其内容彼此之间相互联系，构成一个网络。因此浏览一个数字花园时，你也许不会在一个网页中停留太长时间，而是在不同网页提供的链接之间来回穿梭，自由漫步。是的，这听起来太像WiKi了，也许你马上就会想到维基百科，但可惜，维基百科算不上一个数字花园。</p>
+<figure data-type="image" tabindex="1"><img src="https://yujiale.blog/post-images/1673530082927.png" alt="" loading="lazy"></figure>
+<h3 id="私人性与独立性">私人性与独立性</h3>
+<p>数字花园比起WiKi，就好像花园比起公园，一个是供你自己挥锄洒汗的沃土，一个是供大家休憩的公共场所。数字花园更像是你的私人园林，这里的一切都是服务于自我的，这些都是你完全拥有并控制的个人财产，，没有谁能夺走你的数字花园。</p>
+<p>因此，和公众号，或者依赖其他网络平台的写作不同，数字花园一般并不会受政治审查、平台政策、用户举报等外部因素的影响。而在公共内容发布平台，文章一旦写就，也就失去了对文章的控制权。</p>
+<p>但是，数字花园又不像私人笔记，它不是闭锁和不可访问的。数字花园是公开或半公开的花园，任何花园主想让其访问的人都可以参观这个数字花园。</p>
+<p><img src="https://yujiale.blog/post-images/1673530928836.png" alt="" loading="lazy"><br>
+<img src="https://yujiale.blog/post-images/1673534045068.jpg" alt="" loading="lazy"></p>
+<h3 id="独特性与实验性">独特性与实验性</h3>
+<p>世界上没有两片相同的树叶，同样的，世界上没有两个相同的数字花园。你可能使用了与其他人相同的网站模板或者博客引擎，就像你可以和你的邻居购买相同的种子，但最终你们还是会得到不一样生长状态的作物。因此，数字花园是围绕个人生活经验、思维方式、独特个性等生长出的独特的花园。</p>
+<h3 id="生长性">生长性</h3>
+<p>博客一即发布，可能就不会再次更改，有些内容平台也许也不允许对文章进行二次修改；著作一旦写就，经过编辑、修改、发表，它的历史意义就完成了，即便再版，也与原先的内容划清了界限。而数字花园之所以为花园，是因为花园内的作物都本应处在生长状态下。生长，是花园的常态，也是数字花园的应有之义。在数字花园中，你可能不会发现有第二稿，或是最终版这样的字眼，你甚至可能留意不到花园中细微的变化。</p>
+<figure data-type="image" tabindex="2"><img src="https://yujiale.blog/post-images/1673531865243.png" alt="" loading="lazy"></figure>
+<h3 id="粗糙与公开渐进学习">粗糙与公开渐进学习</h3>
+<p>因为没有一个最终版本的花园，你也见不到一个完美无瑕的数字花园，也许，把个人的不完美的，或者片面的甚至是错误的知识放到公共场合似乎并不是一个恰当的举措，但是，回到数字花园的第二条特性，数字花园的目的不是为了自我以外的任何人或事，它并不宣称自己是绝对真理，它的使命也不是为了公开的传播知识。它给人一种观察花园主思维和生活方式的方法，从花园中，旁人得以管窥或是追踪花园主人的思维发展和个人成长。</p>
+<figure data-type="image" tabindex="3"><img src="https://yujiale.blog/post-images/1673532584884.jpg" alt="" loading="lazy"></figure>
+<h2 id="数字花园的优越性">数字花园的优越性</h2>
+<p>相对的，数字花园拥有诸多益处：</p>
+<ol>
+<li>不将读者圈在一个线性的文章或平台内（信息茧房），而是让读者根据链接顺藤摸瓜寻找并学习自己感兴趣的内容；</li>
+<li>不必立刻完成、不必全部正确、不必时刻为读者着想；</li>
+<li>渐进式写作，不需要大段宝贵的时间，有价值的内容就会自然产生；</li>
+<li>生长式写作，让读者发现、理解、批判文章的不完美，并随着文章一起成长；</li>
+<li>拥有自己写作内容的控制权，不需要过度考虑外部因素（例如为了政治审查而删改文章内容），迁移性比较强；</li>
+<li>拥有独特的，而不是寻常的见解和内容。</li>
+</ol>
+<h2 id="一些数字花园">一些数字花园</h2>
+<ol>
+<li>【英文】<a href="https://maggieappleton.com/">Maggie's</a>，是数字花园这个概念为众人所知的主要网站，本文的主要观点，大部分都来源于此；</li>
+<li>【中文】<a href="https://pmthinking.com/">产品沉思录</a>，最早从少楠主理的产品沉思录中了解到数字花园的概念，译介了 Maggie's 的诸多文章，大概是中文互联网下非常有影响力的介绍数字花园的数字花园；</li>
+<li>【英文】<a href="https://www.swyx.io/">Shawn Wang's</a>，帮助补充并发展了数字花园；</li>
+<li>【中文】<a href="https://onetwo.ren/wiki/">林一二</a>，使用并在社区内维护TiddlyWiki，在笔记圈比较知名；</li>
+<li>【中文】<a href="https://pimgeek.com/notes/">pimgeeks's</a>，写有许多对个人知识和数字生活的反思；</li>
+<li>【英文】<a href="https://gavart.ist/">Gavin's</a>，使用TiddlyWiki搭建的设计类数字花园；</li>
+<li>【中文】<a href="https://note.zhang-yuxin.com/docsify/README">善用佳软</a>张玉新老师使用Obsidian搭建的数字花园；</li>
+<li>【中文】<a href="https://www.coachwugang.com/">吴刚老师的卢曼笔记</a>，关键词：习惯，静坐，日课，阅读，幸福，思考方法，GTD, 生产力，学习，卡片笔记法；</li>
+<li>【英文】<a href="https://notes.linkingyourthinking.com/">LYT Kit</a>，专注于知识管理和 Obsidian 笔记软件的 Nick Milo 的数字花园；</li>
+<li>【中文】<a href="https://ouranswers.notion.site/ouranswers/Answers-3f47ddf1cd3c49ba8440a3e4b455b1c4">参考答案</a>，参考答案是一个类似于产品沉思录的阅读内容聚合知识库，涉及产品、管理、设计、经营等多个方向。</li>
+</ol>
+<h2 id="延伸阅读">延伸阅读</h2>
+<ol>
+<li><a href="https://www.swyx.io/learn-in-public/">Learn In Public</a>；</li>
+<li><a href="https://www.swyx.io/digital-garden-tos">Digital Garden Terms of Service</a>；</li>
+<li><a href="https://github.com/MaggieAppleton/digital-gardeners">Maggie digital-gardeners</a>，提供了搭建数字花园的工具，上手指南，理论哲学，以及一些英文的数字花园，是较为详尽的数字花园指南；</li>
+<li><a href="https://maggieappleton.com/nontechnical-gardening">非编程人员搭建数字花园的指南</a>，同样是 maggie 为非编程人员写的如何在不使用代码的前提下搭建数字花园的教程；</li>
+<li><a href="https://joelhooks.com/digital-garden">joelhooks</a>，较早的英文数字花园；</li>
+<li><a href="https://www.wiki-hao.xyz/">Zihao's Digital Garden</a>，中文搭建数字花园的教程。</li>
+</ol>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Word 排版问题及解决]]></title>
+        <id>https://yujiale.blog/post/word-pai-ban-wen-ti-ji-jie-jue/</id>
+        <link href="https://yujiale.blog/post/word-pai-ban-wen-ti-ji-jie-jue/">
+        </link>
+        <updated>2023-01-12T11:55:33.000Z</updated>
+        <summary type="html"><![CDATA[<p>Word，令人抓狂</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Word，令人抓狂</p>
+<!-- more -->
+<p><ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E4%B8%8B%E5%88%92%E7%BA%BF">如何处理下划线？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E6%96%87%E5%AD%97%E4%B8%8A%E4%B8%8B%E5%AF%B9%E9%BD%90">如何使文字上下对齐？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E5%A4%84%E7%90%86%E9%A1%B5%E7%A0%81">如何处理页码？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%88%86%E9%9A%94%E7%AC%A6">如何添加分隔符？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%AB%A0%E8%8A%82%E5%AF%BC%E8%88%AA">如何添加章节导航？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E8%AE%BE%E5%AE%9A%E5%AD%97%E7%AC%A6%E6%A0%B7%E5%BC%8F">如何添加设定字符样式？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%B9%B6%E8%B0%83%E6%95%B4%E7%9B%AE%E5%BD%95">如何添加并调整目录？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%BC%96%E5%8F%B7">如何添加编号？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E8%B0%83%E6%95%B4%E7%BC%96%E5%8F%B7">如何调整编号？</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E8%B0%83%E6%95%B4%E7%BC%96%E5%8F%B7%E5%89%8D%E5%90%8E%E7%A9%BA%E5%87%BA%E6%9D%A5%E7%9A%84%E9%83%A8%E5%88%86">如何调整编号前后空出来的部分</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E8%AE%A9%E6%AF%8F%E6%AE%B5%E7%AC%AC%E4%B8%80%E8%A1%8C%E9%83%BD%E7%A9%BA%E5%87%BA%E4%B8%A4%E4%B8%AA%E6%88%96%E5%85%B6%E4%BB%96%E6%A0%BC">如何让每段第一行都空出两个（或其他）格</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E8%AE%A9%E9%99%A4%E4%BA%86%E7%AC%AC%E4%B8%80%E8%A1%8C%E9%83%BD%E7%A9%BA%E5%87%BA%E4%B8%A4%E4%B8%AA%E6%A0%BC%E6%82%AC%E6%8C%82%E7%BC%A9%E8%BF%9B">如何让除了第一行都空出两个格（悬挂缩进）</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9%E6%96%87%E6%9C%AC">如何快速选择文本</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E4%BD%BF%E6%96%87%E6%9C%AC%E6%8C%89%E7%85%A7%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%E6%8E%92%E5%BA%8F">如何使文本按照字母顺序排序</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E9%A1%B5%E7%9C%89%E4%B8%8A%E9%9D%A2%E7%9A%84%E6%A8%AA%E7%BA%BF">如何删除页眉上面的横线</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E8%87%AA%E5%8A%A8%E4%BF%9D%E5%AD%98">如何自动保存</a></li>
+<li><a href="#%E6%9C%89%E5%93%AA%E4%BA%9B%E8%8A%82%E7%9C%81%E6%97%B6%E9%97%B4%E7%9A%84%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE">有哪些节省时间的常用快捷键</a></li>
+<li><a href="#%E5%BB%B6%E4%BC%B8%E9%98%85%E8%AF%BB">延伸阅读</a></li>
+</ul>
+</li>
+</ul>
+</p>
+<h2 id="如何处理下划线">如何处理下划线？</h2>
+<p>当我们拿到文件需要填写信息时，会发现原先给出的空格并不是下划线，他们看起来非常规整。</p>
+<figure data-type="image" tabindex="1"><img src="https://image.cubox.pro/article/2022111223023347397/97366.jpg" alt="" loading="lazy"></figure>
+<p>但当你将信息填入之后，发现排版乱掉了，并且文字并没有添加下划线</p>
+<figure data-type="image" tabindex="2"><img src="https://image.cubox.pro/article/2022111223023331802/39525.jpg" alt="" loading="lazy"></figure>
+<p>于是你添加了下划线，出现了下图所示的情况</p>
+<figure data-type="image" tabindex="3"><img src="https://image.cubox.pro/article/2022111223023333970/14894.jpg" alt="" loading="lazy"></figure>
+<p>很显然这并不是我们想要的结果。出现这种情况的原因是，原先给文档排版的人并没有使用下划线，换言之，这条线根本不是下划线，而是我们在英文状态下打出的 <code>_</code> 字符，他们连接在一起，看起来似乎很美观，但这给文档的填写者造成了巨大的困难。</p>
+<p><strong>如何解决</strong></p>
+<p>当然是找到这份文档的创建者，当面质问他你这样做是错的-<br>
+这份文档本身的格式不规范，因此我们需要将 <code>_</code> 字符更换为下划线，并让其尽量符合原始样式。</p>
+<ol>
+<li>
+<p>首先，你需要将这一行中的“下划线”删除，删除后，排版的样式可能会有些许错乱，这是因为默认使用了居中排版或其他排版格式所致，不用担心，后面会讲解怎样解决排版问题，我们先来调整下划线。-<br>
+<img src="https://image.cubox.pro/article/2022111223023318531/67928.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>其次，我们添加下划线，选择为文字添加下划线，它位于Word开始菜单栏字体部分。添加下划线的快捷键是 <code>Ctrl+U</code>。-<br>
+<img src="https://image.cubox.pro/article/2022111223023370376/56095.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>选中下划线后，我们尝试敲几下空格，看看下划线是否显示，如果没有出现下划线，而开始菜单栏的下划线功能已经被启用了，说明我们需要启用为尾部空格添加下划线，启用方式为以此点击左上角文件 - 左下角选项 - 左边栏选中高级 - 向下滚动鼠标 - 勾选为尾部空格添加下划线，点击确定。重新尝试添加下划线。（这就是为什么文档创建者选择使用 <code>_</code> 字符而不是添加下划线，因为缺少了这一设置，下划线不能被正确显示出来）-<br>
+<img src="https://image.cubox.pro/article/2022111223023354028/50206.jpg" alt="" loading="lazy"></p>
+</li>
+</ol>
+<h2 id="如何使文字上下对齐">如何使文字上下对齐？</h2>
+<p>紧接上文，我们处理完下划线后，有时会发现无论如何敲击空格，上下文字总是对不齐。-<br>
+<img src="https://image.cubox.pro/article/2022111223023334933/46880.jpg" alt="" loading="lazy"></p>
+<p>这是因为当我们输入空格时，空格会占据一部分空间，空格并不是为调整对齐（缩进）而设置的，我们需要使用 <code>Tab</code> 键设置对齐，当我们敲击 <code>Tab</code> 键时，Word 会认为我们在调整对齐（缩进），这是 Word 的自动更正功能。</p>
+<blockquote>
+<p>😢什么？还是对不齐？</p>
+</blockquote>
+<p>如果即使使用了 <code>Tab</code> 键，上下文字还是没有被对齐，那么这就需要检查段落的对齐方式了。段落功能位于 Word 开始菜单栏的段落部分。检查上下两段文本是否采用了相同的段落对齐方式，如果不同，可以调整上下两段文本，使他们采取相同的对齐方式，例如居中对齐，或两端对齐。随后调整文本和下划线，完成对齐。-<br>
+<img src="https://image.cubox.pro/article/2022111223023384471/53258.jpg" alt="" loading="lazy"></p>
+<blockquote>
+<p>🤕什么？还是对不齐？</p>
+</blockquote>
+<p>别说别的，文档发给我！我看看文档创建者用的是什么奇葩（非贬义）的方法。</p>
+<h2 id="如何处理页码">如何处理页码？</h2>
+<p>设置页码是一件很简单的事情，只需要选择 Word 菜单栏的插入，找到页码，选择合适的位置（例如页面底端），选择合适的样式（底部居中）插入就可以了。但通常事情没有这么简单，有时正文才配的上12345-<br>
+，而辅文（文前辅文、文内辅文、文后辅文）等需要使用额外的页码（i ii iii iv v）。如何为辅文设置页码格式呢？</p>
+<p>双击页面底端的部分，或者点击 Word 插入菜单栏，找到页码，选择设置页码格式，找到自己想要的页码样式。-<br>
+<img src="https://image.cubox.pro/article/2022111223023319114/75808.jpg" alt="" loading="lazy"></p>
+<p>这样，页码就设置成功了。然而，新的问题出现了，全部的文章都被设置成了这一格式，而我只需要将辅文设置成特定的页码格式，怎么办呢？请看如何添加分页符。</p>
+<h2 id="如何添加分隔符">如何添加分隔符？</h2>
+<p>有时我们要把辅文和正文区别开，在同一页的左右两栏分别写作，或者为不同的章节设置不同的页码等格式。首先，我们要明白，辅文不属于正文，Word 并不清楚哪里是辅文，哪里是正文，因此我们需要标记辅文结束、正文开始的位置，这需要用到分隔符。</p>
+<p>首先将光标移动到需要分隔的位置，在布局菜单栏中找到页面设置部分，点击分隔符，查看各个分隔符的作用。如果需要将辅文与正文分开，可以选择分页符。</p>
+<h2 id="如何添加章节导航">如何添加章节导航？</h2>
+<blockquote>
+<p>🚥 注意：为文字添加章节导航会导致改变原有文字格式，包括字号、字体、字体颜色等，请谨慎操作</p>
+</blockquote>
+<p>章节导航不仅可以使我们快速的索引到需要浏览的章节，而且也是生成目录所必需的条件。-<br>
+<img src="https://image.cubox.pro/article/2022111223023314719/55844.jpg" alt="" loading="lazy"></p>
+<p>要设置文章整体的章节导航，最便捷的方法是打开视图菜单栏，点击大纲视图。-<br>
+<img src="https://image.cubox.pro/article/2022111223023332687/37634.jpg" alt="" loading="lazy"></p>
+<p>在大纲视图中，可以调节文本的大纲级别。要设置大纲级别，只需要选中需要调整的文本，并使用大纲工具选择合适的级别。你也可以使用左箭头快速将文本上调一级，或使用左双箭头调整至一级，右箭头同理。当我们调整完毕后，选择关闭大纲视图，返回到普通视图。-<br>
+<img src="https://image.cubox.pro/article/2022111223023388757/59394.jpg" alt="" loading="lazy"></p>
+<p>返回普通视图后，你应该可以在左侧导航窗格看到你刚才调整的标题层级。如果没有出现导航窗格，可以勾选视图菜单栏，显示栏的导航窗格，或使用快捷键 <code>Ctrl+F</code> 快速打开导航窗格。 <code>Ctrl+F</code> 快捷键也是绝大多数软件中的搜索快捷键。-<br>
+<img src="https://image.cubox.pro/article/2022111223023377670/21194.jpg" alt="" loading="lazy"></p>
+<p>然而，你会发现刚才设置的所有标题的字体格式全部发生了变化。固然我们可以依次重新为文字设置格式，但这不仅繁琐，也容易出差错。为此，我们可以为文字设定字符样式。</p>
+<h2 id="如何添加设定字符样式">如何添加设定字符样式？</h2>
+<p>字符样式为文本排版提供了预设好的各种样式，方便快速排版。Word预设了一套字符样式，但绝大多数时候这些样式并不是我们想要的，因此，我们需要自己设定一套为自己所用的样式。-<br>
+<img src="https://image.cubox.pro/article/2022111223023317313/82478.jpg" alt="" loading="lazy"></p>
+<p>在开始菜单栏样式界面点击右下角的小角标进入样式设定界面，其快捷键是 <code>Alt+Shift+Ctrl+S</code>。你也可以右键点击需要修改的样式，点击修改。-<br>
+<img src="https://image.cubox.pro/article/2022111223023320215/34217.jpg" alt="" loading="lazy"></p>
+<p>进入后，我们点击下方的新建样式，命名为章节标题，样式类型选择链接段落和字符，然后在格式中调整所需的格式，这里我选择中文宋体16点字号（三号）加粗，然后点击左下角选择段落，将其设定为3级大纲级别。你也可以点击左下角的格式按钮对更多字符和段落格式做更具体的调整，这些调整都会成为这一套字符样式，随着你的设定而被应用。-<br>
+<img src="https://image.cubox.pro/article/2022111223023395496/17855.jpg" alt="" loading="lazy">-<br>
+<img src="https://image.cubox.pro/article/2022111223023369523/28834.jpg" alt="" loading="lazy"></p>
+<p>如果你设置的文本样式可以应用到其他文档中，你可以通过文字样式管理界面下方的管理样式导出你所需要的字符样式文件。-<br>
+<img src="https://image.cubox.pro/article/2022111223023322446/44021.jpg" alt="" loading="lazy"></p>
+<h2 id="如何添加并调整目录">如何添加并调整目录？</h2>
+<p>在结构良好的Word界面中我们常常会为其设置目录，自动生成的目录需要提前为文档设置层级。在大纲视图设定好文档的层级结构后，从引用菜单栏的目录部分选择自动目录，Word会自动生成目录页，你也可以选择手动目录，并手动填写目录内容，然而当正文内容变更后，自动目录可以通过更新目录而自动同步正文的更改，而手动目录则需要手动重新调节。-<br>
+<img src="https://image.cubox.pro/article/2022111223023311333/39878.jpg" alt="" loading="lazy">-<br>
+<img src="https://image.cubox.pro/article/2022111223023318287/15296.jpg" alt="" loading="lazy"></p>
+<p>当然，默认的目录样式并不是我们所需要的格式，因此我们也需要对目录格式进行调整。目录格式也属于上文讲过的字符样式，在引用菜单栏找到目录部分，点击目录，从下拉页面中找到自定义目录，选择修改，修改进入到字符样式修改界面，在这里对目录样式进行修改。同样，你可以保存、导出修改后的样式文件以便其他文档使用。-<br>
+<img src="https://image.cubox.pro/article/2022111223023319667/10633.jpg" alt="" loading="lazy"></p>
+<blockquote>
+<p>😢没有生效？尝试新建一个Word文档，将需要的内容复制出来，重新进行调整。</p>
+</blockquote>
+<h2 id="如何添加编号">如何添加编号？</h2>
+<p>为文章自动添加编号的功能是又一大玄学功能，其中的门路如果摸不清就会产生“干脆用键盘把编号手动敲上去”这种想法，这的确是一种解决思路，但至少我们可以先试着调整一下自动编号。</p>
+<p>选中一段文本，找到开始菜单栏的段落部分，左上角的是无序编号（项目符号），右边的是有序编号（编号），选择有序编号右侧的下拉菜单，点击适合自己的有序编号。当完成编号后，在这段文字的末尾回车，Word会自动添加第二段编号，我们可以利用这个原理快速调整格式。方法是在第二段文本开头处按退格键（<code>Backspace</code>）使其与第一段文本合并，然后回车（<code>Enter</code>）这时第二段文本也被添加上了有序编号。你也可以使用格式刷，为其他文本快速添加编号。</p>
+<p>选择一段具有编号的文本，按 <code>Tab</code> 会自动进入下一级编号，在菜单栏段落部分选中多级列表下拉菜单可以选择其他样式的编号。</p>
+<h2 id="如何调整编号">如何调整编号？</h2>
+<p>编号的数字和格式有可能并不如意，这时我们需要手动调整编号。</p>
+<p>当编号的数字层级有问题时，例如需要编号为2.1，但只有第一级编号3，这时选择编号所在的行，在开始菜单栏段落部分选择多级列表，更改列表级别为需要的级别。-<br>
+<img src="https://image.cubox.pro/article/2022111223023311864/55931.jpg" alt="" loading="lazy"></p>
+<p>当自动添加的编号并不是我们想要的数字时，右键编号，选中设置编号值，勾选继续上一列表并勾选前进量（跳过数），在下方设置需要的编号值。-<br>
+<img src="https://image.cubox.pro/article/2022111223023325308/76740.jpg" alt="" loading="lazy"></p>
+<p>当自动添加的编号字体格式太过突兀时，可以选中编号，在开始菜单栏调节字体样式。</p>
+<h2 id="如何调整编号前后空出来的部分">如何调整编号前后空出来的部分</h2>
+<p>为了调整这后面多出的部分，我们首先要了解当点击编号时究竟发生了什么。-<br>
+<img src="https://image.cubox.pro/article/2022111223023399925/59338.jpg" alt="" loading="lazy"></p>
+<p>当我们对一段文本编号后，文本除了多出了一个编号外，文本前和编号后还都多出了一部分空格，这两部分叫做缩进，也称制表位，为了让编号前后变得美观，我们需要对制表位进行调整，比较便捷的方法是直接调整。打开视图菜单栏显示部分，勾选标尺，界面上方会出现一栏标尺，标尺的元素解读如下：-<br>
+<img src="https://image.cubox.pro/article/2022111223023315960/60140.jpg" alt="" loading="lazy"></p>
+<p>因此，如果我们要调整编号后面的部分，只需调整标尺上的滑块，使序号前后的部分美观即可。-<br>
+<img src="https://image.cubox.pro/article/2022111223023312885/71605.jpg" alt="" loading="lazy"></p>
+<p>当调节完成后，选中这一段落，运用格式刷（开始菜单栏剪贴板部分的小刷子）对其他文本进行相同的调节即可。</p>
+<h2 id="如何让每段第一行都空出两个或其他格">如何让每段第一行都空出两个（或其他）格</h2>
+<p>每段开头空出来的这两个格，其实就是我们标尺解读展示的首行缩进，只不过缩进的单位不是英寸，而是两个字符。我们选择这个段落，右键或在开始菜单栏段落部分点击右下角按钮进入段落设置，在缩进部分，特殊缩进选择首行，右侧缩进值输入2字符（或其他），完成！</p>
+<h2 id="如何让除了第一行都空出两个格悬挂缩进">如何让除了第一行都空出两个格（悬挂缩进）</h2>
+<p>和上面一样，我们选择需要调整的段落，右键或在开始菜单栏段落部分点击右下角按钮进入段落设置，在缩进部分，特殊缩进选择悬挂，右侧缩进值输入2字符（或其他），完成！这在APA格式的参考文献写作中尤其重要。</p>
+<h2 id="如何快速选择文本">如何快速选择文本</h2>
+<ol>
+<li>鼠标移至正文左侧空白处，当鼠标指针变为反向鼠标指针后，向下拖动即可快速选择文本；</li>
+<li>使用快捷键 <code>Ctrl+A</code> 快速选择所有文本，这也是多数软件的默认全选快捷键；</li>
+<li>点击需要选中的文本开始的地方，按住 <code>Shift</code> 键不放，再点击需要选中的文本的末尾，完成选取；</li>
+<li>选取一代文本后，按住 <code>Ctrl</code> 键不放，选择另一端不连续的文本；</li>
+</ol>
+<h2 id="如何使文本按照字母顺序排序">如何使文本按照字母顺序排序</h2>
+<p>选中文本后，找到开始菜单栏段落部分，选中排序（A➡Z的图标），英文通过文字排序，中文可以通过拼音排序，你也可以选择其他排序方式。-<br>
+<img src="https://image.cubox.pro/article/2022111223023325891/22610.jpg" alt="" loading="lazy"></p>
+<h2 id="如何删除页眉上面的横线">如何删除页眉上面的横线</h2>
+<p>开始菜单栏找到段落部分，然后选择无框线。</p>
+<h2 id="如何自动保存">如何自动保存</h2>
+<blockquote>
+<p>写完一段话多敲两遍 <code>Ctrl+S</code></p>
+</blockquote>
+<p>依次找到菜单栏文件 - 选项 - 保存，将保存自动恢复信息时间间隔设置为5分钟或更短，并在下方缓存设置中设置将文件保存在 Office 文档缓存 中的天数为30天。这两个设置可以救命，也别问我怎么知道的。</p>
+<h2 id="有哪些节省时间的常用快捷键">有哪些节省时间的常用快捷键</h2>
+<p>快捷键</p>
+<p>作用</p>
+<p>Ctrl+S</p>
+<p>保存</p>
+<p>Ctrl+Z</p>
+<p>撤销</p>
+<p>Ctrl+B</p>
+<p>加粗</p>
+<p>Ctrl+I</p>
+<p>倾斜</p>
+<p>Ctrl+U</p>
+<p>下划线</p>
+<p>Ctrl+C</p>
+<p>复制</p>
+<p>Ctrl+V</p>
+<p>粘贴</p>
+<p>Ctrl+X</p>
+<p>剪切</p>
+<p>Ctrl + Shift + C</p>
+<p>复制格式</p>
+<p>Ctrl + Shift + V</p>
+<p>粘贴格式</p>
+<p>Ctrl+A</p>
+<p>全选</p>
+<p>Ctrl+F</p>
+<p>查找</p>
+<p>Ctrl+P</p>
+<p>打印</p>
+<p>Ctrl+K</p>
+<p>超链接</p>
+<p>F4</p>
+<p>重复上一步</p>
+<p>Shift+Enter</p>
+<p>换行</p>
+<p>Ctrl+Enter</p>
+<p>分页</p>
+<p>Shift+上下左右</p>
+<p>从当前光标位置选择文本</p>
+<p>Ctrl+上下左右</p>
+<p>以词为单位移动光标</p>
+<p>你也可以将需要的功能添加到快速访问工具栏，通过 Alt+数字 实现快捷键的功能。</p>
+<h2 id="延伸阅读">延伸阅读</h2>
+<p><a href="https://m.douban.com/book/subject/26831975/">Word 排版大全</a>，你可以在<a href="https://www.share.yujiale.blog/Share/%E5%9B%BE%E4%B9%A6/">我的分享站</a>下载这本书，并在<a href="https://www.reader.yujiale.blog/">我的阅读器</a>阅读这本书（仅限电脑访问）</p>
+<p><a href="https://yujiale.blog/post/word-pai-ban-bu-wan-quan-zhi-nan/">查看原网页: yujiale.blog</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[初见👋]]></title>
+        <id>https://yujiale.blog/post/chu-jian/</id>
+        <link href="https://yujiale.blog/post/chu-jian/">
+        </link>
+        <updated>2023-01-12T09:55:29.000Z</updated>
+        <summary type="html"><![CDATA[<p>欢迎来到 Joel 的数字花园。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>欢迎来到 Joel 的数字花园。</p>
+<!-- more -->
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=441520&auto=1&height=66"></iframe>
+<p>你好呀，欢迎来到我的个人博客。</p>
+<p>这里是一个数字的花园🌱，就如同真实的花园一样，请不必遵循什么顺序，不要有任何的顾忌，放松下来，闲庭信步，随意观赏。</p>
+<h2 id="花园指示牌">花园指示牌🍀</h2>
+<p>这篇博客主要写我自己正在实践的理论，正在阅读的书目，正在讨论的话题，正在关注的焦点，正在思考的问题。也会译介数字生活与知识管理、时间管理、英语学习等文章。<br>
+未完待续……</p>
+<h2 id="博客周边">博客周边🌏</h2>
+<p>除了这一个博客之外，我在网上也有一圈小小的自留地。因此，除了这片小花园外，你也可以随时踩踩我的自留地：</p>
+<ol>
+<li>我的<a href="http://article.yujiale.blog/">英语学习自留地</a>，里面有英语教材的知识点，英语学习方法论，外国文化与思维，英文文章等；</li>
+<li>一个<a href="https://reader.yujiale.blog/">在线阅读的工具</a>，你可以利用它来阅读你的电子书籍；</li>
+<li><a href="https://files.yujiale.blog/">文件分享自留地</a>，这里储存着我在各大网盘里的文件，如果他们对你有任何帮助，欢迎下载使用。</li>
+</ol>
+<h2 id="写在最后">写在最后🌻</h2>
+<p>本博客无从得知何时何地谁访问过博客，也承诺不收集任何来访者信息。因此对于花园主来说，最能够鼓舞人心的莫不是来访者的会心一笑，或是对花园的只言片语，无论通过什么方式，一句简单的回应会是莫大的鼓励。</p>
+]]></content>
+    </entry>
+</feed>
